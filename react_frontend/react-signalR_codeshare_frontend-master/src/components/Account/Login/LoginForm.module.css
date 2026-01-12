@@ -1,0 +1,79 @@
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #9f9f9f;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #3e3e3e;
+  color: #fff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus {
+  background-color: #5e5e5e;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.6);
+}
+
+.error-text {
+  color: #ff5252;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.success-text {
+  color: #4caf50;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.email-confirmation-box {
+  background: #ffcccb;
+  color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.resend-email-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.resend-email-button:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}

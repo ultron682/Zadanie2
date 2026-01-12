@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"react-i18n.i18nPaths": "src\\locale"
+	}
+}

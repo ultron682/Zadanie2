@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.app-container {
+  background-color: #1c1c1c;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full page height */
+}
+
+main {
+  flex: 1; /* Automatically adjusts height */
+  min-height: calc(100vh - 200px); /* Set minimum height */
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__hidden {
+  height: calc(100% - (50px)) !important;
+}
+
+.light_theme {
+  background-color: #7496a6;
+}
+
+.dark_theme {
+  background-color: #252525;
+}

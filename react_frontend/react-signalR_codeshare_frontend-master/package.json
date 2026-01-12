@@ -1,0 +1,72 @@
+{
+  "name": "codeshare-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ultron682.github.io/react-signalR_codeshare_frontend/",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.20.0",
+    "@codemirror/collab": "^6.1.1",
+    "@codemirror/lang-css": "^6.2.1",
+    "@codemirror/lang-go": "^6.0.1",
+    "@codemirror/lang-javascript": "^0.17.2",
+    "@codemirror/lang-php": "^6.0.1",
+    "@codemirror/lang-python": "^6.1.6",
+    "@codemirror/lang-sql": "^6.7.1",
+    "@codemirror/lang-xml": "^6.1.0",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@microsoft/signalr": "^8.0.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uiw/codemirror-theme-dracula": "^4.23.0",
+    "@uiw/react-codemirror": "^4.23.0",
+    "axios": "^1.7.2",
+    "file-saver": "^2.0.5",
+    "i18next": "^23.11.5",
+    "react": "^18.3.1",
+    "react-ace": "^12.0.0",
+    "react-codemirror2": "^8.0.0",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.2",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5",
+    "react-tooltip": "^5.28.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "start": "set PUBLIC_URL= &&set HOST=localhost&&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "gh-pages": "^6.1.1"
+  }
+}

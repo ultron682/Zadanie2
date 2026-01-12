@@ -1,0 +1,75 @@
+.header {
+    height: 50px;
+    background-color: #282c34;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    text-decoration: none;
+    color: #61dafb;
+}
+
+.actions a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #61dafb;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.theme-toggle-btn, .language-toggle-btn {
+    background: none;
+    padding: 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.account-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.account-link span {
+    margin-left: 5px;
+}
+
+.light-theme {
+    background-color: var(--background-light, #ffffff);
+    color: var(--text-dark, #000000);
+}
+
+.dark-theme {
+    background-color: var(--background-dark, #282c34);
+    color: var(--text-light, #ffffff);
+}
