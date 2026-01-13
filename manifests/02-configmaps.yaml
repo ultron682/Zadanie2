@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: codeshare
+data:
+  REACT_APP_API_URL: "http://brilliantapp.zad/api"
+  REACT_APP_SIGNALR_URL: "http://brilliantapp.zad/codeshare"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: codeshare
+data:
+  ASPNETCORE_ENVIRONMENT: "Production"
+  ASPNETCORE_URLS: "http://+:5555"

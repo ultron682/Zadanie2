@@ -2,7 +2,7 @@
   "name": "codeshare-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ultron682.github.io/react-signalR_codeshare_frontend/",
+  "homepage": "/",
   "dependencies": {
     "@codemirror/basic-setup": "^0.20.0",
     "@codemirror/collab": "^6.1.1",

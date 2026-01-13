@@ -30,7 +30,7 @@ builder.Services.AddSwaggerGen();
 builder.Services
     .AddDbContext<ApplicationDbContext>(options =>
     {
-        options.UseSqlServer(builder.Configuration.GetConnectionString("CodeShareDbConnection"));
+        options.UseInMemoryDatabase("CodeShareDb");
         options.EnableSensitiveDataLogging(false);
     }
 );
@@ -101,7 +101,7 @@ builder.Services.AddSignalR(o =>
 
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 
-builder.Services.AddScoped<IAccountService,AccountService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddTransient<IMailService, MailService>();
 builder.Services.AddSingleton<HtmlTemplateService>();
 
