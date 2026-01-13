@@ -1,5 +1,8 @@
 # Zadanie 2 - Full-Stack Application w Minikube
 
+<img width="1919" height="1069" alt="image" src="https://github.com/user-attachments/assets/00517068-4e3e-4c58-a379-98d7967144a2" />
+
+
 ## A. Opis aplikacji
 
 Wybrana aplikacja to **CodeShare** - platforma do współdzielenia kodu w czasie rzeczywistym. Aplikacja umożliwia tworzenie snippetów kodu, ich edycję oraz udostępnianie poprzez unikalne linki. Jest to moja aplikacja, którą kiedyś stworzyłem do swojego portfolio. W czasie robienia zadania znowu miałem problemy z RAM'em. Musiałem trochę ograniczyć zasoby, ale ostatecznie wszystko się udało.
